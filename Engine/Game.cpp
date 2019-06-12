@@ -41,7 +41,7 @@ Game::Game( MainWindow& wnd )
 void Game::Go()
 {
 	gfx.BeginFrame();	
-	UpdateModel();
+	UpdateModel(); //jon arbuckle
 	ComposeFrame();
 	gfx.EndFrame();
 }
